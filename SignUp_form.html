@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: #F8F8F8;
+            /* height: 110vh; */
+            font-family: 'Poppins', sans-serif;
+        }
+        .box {
+            margin: auto;
+            max-width: 900px;
+            padding: 85px;
+        }
+        .container {
+            position: relative;
+            border: 1px solid white;
+            border-radius:12px;
+            background-color:white;
+            position:relative;
+            width: 900px;
+            margin-top:73px;
+        }
+        .image {
+
+            position: absolute;
+            right: 6%;
+            padding-top: 13px;
+        }
+        i{
+            position: absolute;
+            padding-top: 14px;
+            font-size: 12px;
+        }
+        input {
+            border-top: 0px;
+            border-left: 0px;
+            border-right: 0px;
+            border-bottom: 1px solid rgb(162, 160, 160);
+            padding: 12px;
+            font-size: 14px;
+            padding-left: 33px;
+            color: rgb(160, 158, 158);
+        }
+        input:hover::placeholder {
+            color: black;
+        }
+        input:focus {
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+        #register {
+            border-bottom: 0px;
+            background-color: #6dabe4;
+            font-family: 'Poppins', sans-serif;
+            padding: 14px;
+            border-radius: 4px;
+            font-size: 13px;
+            color: white;
+        }
+        #register:hover {
+            background-color: #4c9de9;
+            cursor: pointer;
+        }
+        form {
+            margin: 89px;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 35px;
+        }
+        .click {
+            line-height: 8px;
+        }
+        a {
+            color: black;
+        }
+         .look {
+            font-size: 13px;
+        } 
+        .we {
+            float: right;
+            font-size: 14px;
+            margin-top: -33px;
+            margin-right: 33px;
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+            <form action="backend.php">
+                <div class="image">
+                    <img src="signup-image.jpeg" alt="signup-image">
+                </div>
+                <div class="click">
+                    <h1>Sign up</h1>
+                    <br>
+                    <br>
+                    <div>
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="100" size="38vw" placeholder="Your Name">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <input type="email" id="101"size="38vw"  placeholder="Your Email">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <i class="fa fa-lock"></i>
+                        <input type="password"  id="102"size="38vw" placeholder="Password">
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <i class="fa fa-lock"></i>
+                        <input type="password" id="103" size="38vw"placeholder="Repeat your password">
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div>
+                        <input type="checkbox">
+                        <label for="look" size="12vw" class="look"> I agree all statements in<a href="" target="_blank">
+                                Terms of service</a><br>
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+                <div>
+                    <input type="Submit" style="width:21%;" value="Register" id="register">
+                </div>
+                <div class="we">
+                    <a href="" target="_blank">I am already member</a>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
