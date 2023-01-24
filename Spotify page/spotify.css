@@ -1,0 +1,248 @@
+ 
+body{
+  background-color: black;
+    /* background-color: rgb(35, 35, 35); */
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div .nav ul{
+    display: flex;
+    height: 64px;
+    background-color: black;
+    color: white;
+    justify-content:flex-start;
+    font-family: 'Poppins', sans-serif;
+    position:sticky;
+    top: 0%;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color:white;
+    font-family: 'Noto Sans HK', sans-serif;
+    padding:13px 0px;
+    flex-direction: column;
+    height: 100%;
+    width: 15%;
+    position:fixed;
+    
+}
+#navbar{
+    height: 100%;
+    width: 25%;
+    background-color: black;
+}
+.nav ul li.bg{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding: 0px 31px;
+    
+}
+.nav ul li.bgnew{
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding: 0px 10px;
+}
+
+.login{
+    padding: 0px 31px;
+}
+.nav ul li{
+    display: flex;
+    font-size: 15px;
+    /* padding: 0px 31px; */
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 43px;
+   margin: 8px 8px;
+   font-weight:bold;
+}
+
+.nav{
+    opacity: 0.9;
+    position: absolute;
+    right: 0%;
+    width: 75%;
+}
+
+#navbar img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 60px; 
+   
+}
+.opacity li span{
+    opacity: 0.6;
+}
+
+#navbar ul li{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    align-items: center;
+    /* position: relative;
+    bottom: 72px; */
+    padding: 10px 18px;
+
+}
+.logo{
+    font-size: 25px;
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+ 
+}
+.gap{
+    padding-top: 12px;
+    padding-left:10px;
+}
+.container{
+    padding:18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(23, 23, 23);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.container h3{
+    font-size: 20px;
+}
+.container .grid-container{
+    display: grid;
+    padding: 23px;
+    row-gap: 23px;
+    column-gap:23px;
+    /* border: 2px solid white; */
+    grid-template-columns:repeat(4,14.6em);
+    grid-template-rows:repeat(2,20em);
+    
+}
+div.grid-item{
+    border: 18px solid rgb(27, 27, 27);
+    border-radius: 12px;
+    background-color: rgb(27, 27, 27);
+}
+div.grid-item:hover{
+    border-image: linear-gradient(#4a4a4a, #1e1e1e) 30;
+    border-width: 18px;
+    border-style: solid;
+}
+.grid-item p{
+    font-size: 13px;
+    margin: 10px;
+}
+.grid-item img{
+    width: 12.1em;
+    height: 13em;
+    margin: 0px 2px;
+    border-radius: 12px;
+ 
+}
+.grid-item h5{
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+
+
+
+#bottom{
+    height:5em;
+    position: sticky;
+    bottom:0px;
+    background-color: black;
+    color: white;
+   padding-top: 12px;
+   /* opacity: 0.8; */
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+} 
+.range input{
+    width: 35%;
+    height: 5px;
+}
+#bottom span i{
+   font-size: 35px;
+    padding: 9px;
+}
+
+/* body{
+    background-color: rgba(10, 194, 102, 0.782);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+ 
+
+}
+.maincontainer{
+    height: 100%;
+}
+
+#navbar ul{
+    list-style: none;
+    display: flex;
+    background-color: black;
+    color:white;
+    font-family: 'Noto Sans HK', sans-serif;
+    padding:13px 0px;
+   
+}
+
+#navbar img{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50px; 
+   
+}
+
+#navbar ul li{
+    padding:0px 23px;
+    display: flex;
+    font-family: 'Noto Sans HK', sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.logo{
+    font-size: 23px;
+}
+.container{
+    padding:12px;
+    height: 48vw;
+}
+.bottom{
+    height:5em;
+    position: sticky;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+   padding-top: 12px;
+   opacity: 0.8;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.range input{
+    width: 35%;
+    height: 5px;
+}
+.bottom span i{
+   font-size: 35px;
+    padding: 9px;
+}
+ */
